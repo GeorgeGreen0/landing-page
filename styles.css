@@ -17,10 +17,16 @@ body {
     display: flex;
 }
 
-.quote { 
+.quotes { 
     display: flex;
     background-color: #E5E7EB;
-    color: #29538d;
+    font-size: 36px;
+    font-style: italic light;
+    color: #1F2937;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .cta { 
@@ -36,7 +42,8 @@ nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    gap: 10px;
 }
 
 .header img {
@@ -57,4 +64,11 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
