@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header { 
+    display: flex;
+    background-color: #1F2937;
+}
+
+.info { 
+    display: flex;
+}
+
+.quote { 
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.cta { 
+    display: flex;
+}
+
+.footer { 
+    display: flex;
+    background-color: #1F2937;
+}
